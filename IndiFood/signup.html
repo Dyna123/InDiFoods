@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style2.css" class="href">
+    <link rel="stylesheet" href="signup.css" class="href">
+</head>
+<body>
+    
+    <!-- <div class="nab">a
+        <div class="navbar">
+            <a href="index.html" class="navbar-brand">InDiFoods</a>
+            <ul class="navbar-menu">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Reserve Table</a></li>
+                <div class="dropdown">
+                    <a class="dropbtn" href="">Food Items</a>
+                    <div class="dropdown-content">
+                        <a href="#service1">Takeaway</a>
+                        <a href="#service2">Dining</a>
+                        <a href="#service3">Home Delivery</a>
+                    </div>
+                </div>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+                
+            </ul>
+        </div>
+        <div class="NavBtn">
+            <button class="SignBtn">Sign up &#8594;</button>
+        </div>
+    </div> -->
+    <div class="nab">
+        <div class="navbar">
+            <a href="index.html" class="navbar-brand">InDiFoods</a>
+            <div class="navbar-toggle">
+                <div class="hamburger" onclick="toggleNavbar()"></div>
+            </div>
+            <ul class="navbar-menu" id="navbarMenu">
+                <ul class="navbar-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Reserve Table</a></li>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Food Items</a>
+                        <div class="dropdown-content">
+                            <a href="#service1">Takeaway</a>
+                            <a href="#service2">Dining</a>
+                            <a href="#service3">Home Delivery</a>
+                        </div>
+                    </div>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                    
+                </ul>
+            </ul>
+        </div>
+        <div class="NavBtn">
+            <a href="signup.html"><button class="SignBtn">Sign up &#8594;</button></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="design-element"></div>
+        <div class="card">
+          <div class="card-body">
+            <h2><button type="submit">My Account</button></h2>
+            <!-- <button type="button" class="additional-btn">My Account</button> -->
+            <form id="signup-form">
+              <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <button type="submit">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    <script src="script2.js"></script>
+</body>
+</html>
