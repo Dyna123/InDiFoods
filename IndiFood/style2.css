@@ -462,5 +462,86 @@ body {
     }
 }  
     /* .........itemdiv.................. */
-    /* .....About Us CSS  */
-    
+/* Basic styling for the footer */
+footer {
+    background-color: #fefdfc; /* Background color */
+    color: rgb(2, 0, 0); /* Text color */
+    padding: 20px; /* Spacing inside the footer */
+  }
+  
+  .footer-content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .newsletter {
+    margin-bottom: 20px; /* Spacing below newsletter */
+  }
+  
+  .newsletter h3 {
+    font-size: 16px; /* Adjust heading font size */
+    margin-bottom: 10px; /* Spacing below heading */
+  }
+  
+  form {
+    display:inline; /* Use flexbox for form elements */
+    border-color: ;
+  }
+  
+  input[type="email"] {
+    padding: 10px; /* Adjust input padding */
+    margin-right: 10px; /* Spacing between input and button */
+  }
+  
+  button {
+    padding: 8px 15px; /* Adjust button padding */
+    background-color: #fff; /* Button background color */
+    color: #333; /* Button text color */
+    border: none; /* Remove button border */
+  }
+  
+  .footer-links {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space columns evenly */
+    width: 100%; /* Take full width */
+  }
+  
+  .column {
+    margin-inline: ;
+    margin-right: 20px;
+    max-width: 200px;
+    flex: 1; /* Limiting the width of each column */
+  }
+  
+  h3 {
+    font-size: 16px; /* Adjust heading font size */
+    margin-bottom: 10px; /* Spacing below heading */
+  }
+  
+  .footer-links a {
+    margin-top: 10px;
+    color: rgb(11, 1, 1); /* Link color */
+    margin-bottom: 5px; /* Spacing between links */
+    display: block; /* Make links block-level */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Style for social media icons */
+  .column a i {
+    margin-right: 5px; /* Spacing between icon and text */
+  }
+  
+  /* Style for copyright */
+  .copyright {
+    margin-top: 100px; /* Push to the bottom */
+    border: 5px solid #4a90e2; /* Border */
+    border-radius: 10px; /* Border radius */
+    padding: 10px; /* Padding inside the box */
+    text-align: center; /* Center align text */
+  }
+  

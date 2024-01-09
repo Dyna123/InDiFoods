@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <!-- <link rel="stylesheet" href="style2.css"> -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
     rel="stylesheet"
 />
     <link rel="stylesheet" href="reservation.css">
 </head>
-<style>
-    body {
-        background-image: url('IndiFood\img\reservationimg.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-</style>
 <body>
+    <div class="nab">
+        <div class="navbar">
+            <a href="INDIFOODS1/index.html" class="navbar-brand">IndiFoods</a>
+            <ul class="navbar-menu">
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="reservation.html">Reserve Table</a></li>
+                <div class="dropdown">
+                    <a class="dropbtn" href="">Food Items</a>
+                    <div class="dropdown-content">
+                        <a href="#service1">Takeaway</a>
+                        <a href="#service2">Dining</a>
+                        <a href="#service3">Home Delivery</a>
+                    </div>
+                </div>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+                
+            </ul>
+        </div>
+        <div class="NavBtn">
+            <a href="IndiFood/signup.html"><button class="SignBtn">Sign up &#8594;</button></a>        </div>
+    </div>
+    
     <div id="bgImg">
         
     </div>
@@ -68,5 +86,42 @@
                 </div>
             </form>
         </div>
+        <footer>
+            <div class="footer-content">
+              <div class="newsletter">
+                <h3>Subscribe to our Newsletter</h3>
+                <form>
+                  <input type="email" placeholder="Your email address">
+                  <button type="submit">Subscribe</button>
+                </form>
+              </div>
+              <div class="footer-links">
+                <div class="column">
+                  <h3>Main Menu</h3>
+                  <a href="./index.html">Home</a>
+                  <a href="IndiFood\aboutus.html">About</a>
+                  <a href="#">Food Items</a>
+                  <a href="#">Contact</a>
+                </div>
+                <div class="column">
+                  <h3>Support</h3>
+                  <a href="#">Help Centre</a>
+                  <a href="#">FAQ</a>
+                  <a href="#">Refund Policy</a>
+                  <a href="#">Chat With Us</a>
+                </div>
+                <div class="column">
+                  <h3>Follow Us</h3>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-xing"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>&copy; 2024 IndiFoods.Inc     </p>
+            </div>
+          </footer>
 </body>
 </html>
