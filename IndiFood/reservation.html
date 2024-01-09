@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<style>
+    body {
+        background-image: url('IndiFood\img\reservationimg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+<body>
+    <div id="bgImg">
+        
+    </div>
+        <div id="container">
+            <form action="">
+                <div id="heading">
+                    <h1>Reserve Your Table:</h1><br>
+                    <p>Please fill the form below accurately to enable us serve you better!.. welcome!</p>
+                </div>
+                <div id="guestDetails">
+                    <div class="guestDiv" id="name">
+                        <label for="name">Name</label>
+                        <input class="guestInp" name="name" type="text" placeholder="First Name">
+                        <input class="guestInp" name="name" type="text" placeholder="Last Name">
+                    </div>
+                    <div class="guestDiv" id="email">
+                        <label for="email">Email</label>
+                        <input class="guestInp" name=email type="text" placeholder="Email">
+                    </div>
+                    <div class="guestDiv" id="phone">
+                        <label for="phone">Phone</label>
+                        <input class="guestInp" name=phone type="text" placeholder="Phone number">
+                    </div>
+                    <div class="guestDiv" id="ofGuest">
+                        <label for="ofGuest">Guest</label>
+                        <input class="guestInp" name=ofGuest type="number" placeholder="Number of people">
+                    </div>
+                    <div class="guestDiv" id="date1">
+                        <label for="date">Date   </label>
+                        <input class="guestInp" name="date" type="date" placeholder="Enter date">
+                        <input class="guestInp" name="date" type="time" placeholder="Enter time">
+                    </div>
+                </div>
+                <div id="reservationSection">
+                    <div class="reservationDiv" id="reservationType">
+                        <label for="reservationType">Reservation Type</label>
+                        <input type="text" name="reservationType" placeholder="Reservation Type">
+                    </div>
+                    <div class="reservationDiv" id="others">
+                        <label for="others">If Other above, please specify</label>
+                        <input type="text" name="others" placeholder="Others">
+                    </div>
+                    <div class="reservationDiv" id="specialReq">
+                        <label for="specialReq">Any special requests</label>
+                        <input type="text" name="specialReq" placeholder="specialReq">
+                    </div>
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
