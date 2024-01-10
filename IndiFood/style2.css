@@ -561,9 +561,12 @@ footer {
     background-color: #fefdfc; /* Background color */
     color: rgb(2, 0, 0); /* Text color */
     padding: 20px; /* Spacing inside the footer */
+    margin-top: 40%;
   }
   
   .footer-content {
+    height: 30vh;
+    width: 100vw;
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack elements vertically */
     align-items: flex-start; /* Align items to the left */
